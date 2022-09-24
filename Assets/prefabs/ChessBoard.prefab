@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3757705143361421631
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3757705143361002783}
+  - component: {fileID: 3757705143358102847}
+  - component: {fileID: 3757705143359234047}
+  - component: {fileID: 3757705143351915263}
+  - component: {fileID: 3757705143544424436}
+  m_Layer: 0
+  m_Name: ChessBoard
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3757705143361002783
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3757705143361421631}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &3757705143358102847
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3757705143361421631}
+  m_Mesh: {fileID: 4300000, guid: a7b6d26ad5b4fd242adbf634c007cb14, type: 3}
+--- !u!23 &3757705143359234047
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3757705143361421631}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 736e7c8338ce5844ca77e27fc06ab12e, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!95 &3757705143351915263
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3757705143361421631}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: a7b6d26ad5b4fd242adbf634c007cb14, type: 3}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &3757705143544424436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3757705143361421631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2e1514268eff974ea645906d479704e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileMeterial: {fileID: 2100000, guid: e1ab26f65d8e0c34683c24a83cd1fc60, type: 2}
+  tileSize: 0.7
+  yOffset: 0.15
+  boardCenter: {x: 0, y: 0, z: 0}
+  prefabs:
+  - {fileID: 3925537231422719205, guid: 2f81440cda748e343b119a331f2f43c7, type: 3}
+  - {fileID: 3891145767740680119, guid: f5b3ebff2be357d45b27fcd02cad00a1, type: 3}
+  - {fileID: 3787710409531150929, guid: 9411e8e56b9cb7d4db402d1f791a09ce, type: 3}
+  - {fileID: 7911442391954427172, guid: 8e3a68102fa82a1449a8933fa85c6fd4, type: 3}
+  - {fileID: 3733844614913754195, guid: 905b55f0539f3974dbc6bec3a4db9ffc, type: 3}
+  - {fileID: 4726026335392094017, guid: 121ddf3ddbd11f54ea8b11a1a7cf6b43, type: 3}
+  teamMaterials:
+  - {fileID: 2100000, guid: 5455e5881abac1646babb11b63700346, type: 2}
+  - {fileID: 2100000, guid: bafc8572d673e56409bebc78d40541fb, type: 2}
+  deathSize: 0.3
+  deathSpacing: 0.3
+  dragOffset: 1
