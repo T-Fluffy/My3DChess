@@ -4,7 +4,7 @@
  [![Made with Unity](https://img.shields.io/badge/Made%20with-Unity-57b9d3.svg?style=for-the-badge&logo=unity)](https://unity3d.com)
 
 ### Gameplay
-Starting up ny opening the game menu and selecting between Local or online mode :
+Starting up by opening the game menu and selecting between Local or online mode :
 
 ![Starting menu](Images/start.png)
 
